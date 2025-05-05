@@ -1,7 +1,7 @@
 import { MissionBannerData } from '@/Components/Shared/Consts';
 import ListItem from './ListItem';
 
-const Banner1 = () => {
+const MissionBanner = () => {
   return (
     <div className="flex flex-col-reverse sm:flex-row items-center justify-between gap-5 md:gap-10 mt-20">
       <div className="max-w-xs md:max-w-md">
@@ -30,4 +30,4 @@ const Banner1 = () => {
   );
 };
 
-export default Banner1;
+export default MissionBanner;

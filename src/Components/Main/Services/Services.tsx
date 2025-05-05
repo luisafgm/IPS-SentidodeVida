@@ -3,7 +3,7 @@ import Service from './Service';
 import { useState } from 'react';
 import { SelectedService } from '@/Components/Shared/Types';
 import ListItem from './ListItem';
-import Banner1 from './Banner1';
+import MissionBanner from './MissionBanner';
 import SectionWrapper from '../SectionWrapper';
 
 const Services = () => {
@@ -15,7 +15,7 @@ const Services = () => {
     (service) => service.id === SelectService
   );
   return (
-    <SectionWrapper id="services">
+    <SectionWrapper id="servicios">
       <h2 className="text-4xl font-bold text-center mb-10">Servicios</h2>
       <div className=" flex flex-col justify-between lg:flex-row gap-10 lg:gap-5">
         <div className="grid grid-cols-3 gap-5">
@@ -40,7 +40,7 @@ const Services = () => {
 
         </div>
       </div>
-      <Banner1 />
+      <MissionBanner />
     </SectionWrapper>
   );
 };
