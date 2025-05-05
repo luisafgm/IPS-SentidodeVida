@@ -16,7 +16,7 @@ import user3 from '@/assets/Images/users/user3.jpg';
 
 import logo from '@/assets/Images/logo.png';
 
-export const links = ['Home', 'Doctors', 'Services', 'Reviews'];
+export const links = ['Inicio', 'Nosotros', 'Servicios', 'Reviews'];
 
 export const descNums = [
   {
@@ -179,14 +179,15 @@ export const ServicesData = [
 
 
 
-export const DoctorsData = {
+export const AboutUsData = {
 
   heading: '¿Quiénes somos?',
   desc: 'En IPS Sentido de Vida creemos en las segundas oportunidades, en el poder de la escucha y en la fuerza que cada ser humano tiene para reconstruirse. Somos un equipo comprometido con la rehabilitación integral de personas que enfrentan trastornos mentales o problemas asociados al consumo de sustancias psicoactivas.Más que una institución, somos un espacio seguro, donde el respeto, la empatía y la dignidad son la base de cada proceso terapéutico. Aquí, cada historia importa, cada avance se celebra y cada reto se enfrenta con acompañamiento profesional y humano. Nuestro propósito es brindar apoyo real, cercano y constante para que cada persona recupere su salud mental, su entorno y su propósito.',
   img: Banner2,
   
 };
-export const Banner1Data = {
+
+export const MissionBannerData = {
   heading: 'Misión',
   texts: [
     'Brindar atención integral, humanizada y especializada en salud mental y rehabilitación, promoviendo el bienestar emocional, físico y social de nuestros pacientes, mediante un enfoque interdisciplinario, ético y centrado en la dignidad humana.',
