@@ -1,19 +1,19 @@
-import { DoctorsData } from '@/Components/Shared/Consts';
+import { AboutUsData } from '@/Components/Shared/Consts';
 import SectionWrapper from '../SectionWrapper';
 
-const Doctors = () => {
+const AboutUs = () => {
   return (
-    <SectionWrapper id="doctors">
+    <SectionWrapper id="nosotros">
       <h3 className="text-4xl font-bold text-center mb-20">
-        {DoctorsData.heading}
+        {AboutUsData.heading}
       </h3>
       <div className="mb-5 m-auto text-center max-w-2xl text-xs sm:text-base md:text-lg">
-        {DoctorsData.desc}
+        {AboutUsData.desc}
       </div>
-      <img className="m-auto" src={DoctorsData.img} />
+      <img className="m-auto" src={AboutUsData.img} />
       
     </SectionWrapper>
   );
 };
 
-export default Doctors;
+export default AboutUs;
