@@ -40,40 +40,59 @@ export const descNums = [
 export const ServicesData = [
   {
     img: neurology,
-    title: 'Neurology',
-    id: 'neurology',
-    heading: 'Neurology Department',
+    title: 'Programas',
+    id: 'programas',
+    heading: 'Programas de promoción y prevención',
     texts: [
-      'Expert neurological consultations',
-      'Comprehensive brain and nerve care',
-      'Advanced neuroimaging services',
-      'Treatment for epilepsy and seizures',
-      'Memory and cognitive assessments',
-      'Pediatric neurology expertise',
-      'Movement disorders management',
+      'Prevención uso y abuso de S.P.A.',
+      'Prevención de la Conducta Suicida.',
+      'Promoción de pautas de crianza adecuadas.',
+      'Promoción de salud sexual y reproductiva.',
+      'Promoción de pautas de auto cuidado.',
+      'Desarrollo de Habilidades para la Vida.',
     ],
   },
   {
     img: cardiology,
-    title: 'Cardiology',
-    id: 'cardiology',
-    heading: 'Cardiology Department',
+    title: 'Apoyo',
+    id: 'apoyo',
+    heading: 'Grupos de Apoyo',
     texts: [
-      'Electrocardiogram (ECG)',
-      'Echocardiogram',
-      'Color Doppler Echo',
-      'Dobutamine Stress Echo (DSE)',
-      'Transesophageal Echo (TEE)',
-      'Exercise Tolerance Test (ETT/TMT)',
-      'Halter monitor',
-      '24 Hour Ambulatory BP monitor',
-      'Tilt Test/Tilt Table Test',
+      'Grupo trastornos de adicciones.',
+      'Grupo manejo del duelo.',
+      'Grupo familiares pacientes con enfermedad mental.',
+      'Grupo trastornos emocionales.',
+      'Grupo trastornos afectivos.',
+    ],
+  },
+  {
+    img: seeMoreImage,
+    title: 'Psicosociales',
+    id: 'psicosociales',
+    heading: 'Servicios Psicosociales',
+    texts: [
+      'Trabajo social.',
+      'Intervención familiar.',
+      'Acompañamiento familiar.',
+      'Orientación sociofamiliar.',
+      'Intervenciones psicosociales.',
+    ],
+  },
+  {
+    img: dentistry,
+    title: 'Complementario',
+    id: 'complementario',
+    heading: 'Servicios de Apoyo Complementario.',
+    texts: [
+      'Nutrición.',
+      'Terapia ocupacional.',
+      'Orientación espiritual.',
     ],
   },
   {
     img: orthopedics,
-    title: 'Orthopedics',
-    id: 'orthopedics',
+    title: 'Abc',
+    id: 'abc',
     heading: 'Orthopedics Department',
     texts: [
       'Orthopedic surgery and joint replacements',
@@ -87,8 +106,8 @@ export const ServicesData = [
   },
   {
     img: surgery,
-    title: 'Surgery',
-    id: 'surgery',
+    title: 'Abc',
+    id: 'abc',
     heading: 'Surgery Department',
     texts: [
       'Minimally invasive and laparoscopic surgery',
@@ -100,81 +119,8 @@ export const ServicesData = [
       'Emergency surgical interventions',
     ],
   },
-  {
-    img: dentistry,
-    title: 'Dentistry',
-    id: 'dentistry',
-    heading: 'Dentistry Department',
-    texts: [
-      'Routine dental check-ups and cleanings',
-      'Cosmetic dentistry and teeth whitening',
-      'Oral surgery and extractions',
-      'Dental implants and restorations',
-      'Pediatric and family dentistry',
-      'Gum disease treatment',
-      'Orthodontic and braces options',
-    ],
-  },
-  {
-    img: radiology,
-    title: 'Radiology',
-    id: 'radiology',
-    heading: 'Radiology Department',
-    texts: [
-      'Advanced diagnostic imaging services',
-      'Mammography and breast health screening',
-      'Interventional radiology procedures',
-      'Virtual colonoscopy and body scans',
-      'Radiology consultations',
-      'Fast and accurate imaging results',
-      'State-of-the-art radiology technology',
-    ],
-  },
-  {
-    img: urology,
-    title: 'Urology',
-    id: 'urology',
-    heading: 'Urology Department',
-    texts: [
-      'Urinary tract and kidney evaluations',
-      'Urologic surgery and stone removal',
-      "Men's and women's urological health",
-      'Prostate and bladder care',
-      'Incontinence and pelvic floor therapy',
-      'Urological consultations',
-      'Comprehensive urology solutions',
-    ],
-  },
-  {
-    img: medicine,
-    title: 'Medicine',
-    id: 'medicine',
-    heading: 'Medicine Department',
-    texts: [
-      'Primary care and internal medicine',
-      'Chronic disease management and prevention',
-      'Immunizations and wellness checks',
-      'Holistic and integrative medicine',
-      'Geriatric and pediatric medicine',
-      'Health education and lifestyle coaching',
-      'Individualized medical treatment plans',
-    ],
-  },
-  {
-    img: seeMoreImage,
-    title: 'See More',
-    id: 'seemore',
-    heading: 'Explore Our Services',
-    texts: [
-      'Explore additional healthcare options',
-      'Specialized medical services for all needs',
-      'Discover a world of medical solutions',
-      'Find the right care for you',
-      'Comprehensive healthcare offerings',
-      'More than meets the eye',
-      'Healthcare beyond expectations',
-    ],
-  },
+
+  
 ];
 
 
@@ -184,7 +130,7 @@ export const AboutUsData = {
   heading: '¿Quiénes somos?',
   desc: 'En IPS Sentido de Vida creemos en las segundas oportunidades, en el poder de la escucha y en la fuerza que cada ser humano tiene para reconstruirse. Somos un equipo comprometido con la rehabilitación integral de personas que enfrentan trastornos mentales o problemas asociados al consumo de sustancias psicoactivas.Más que una institución, somos un espacio seguro, donde el respeto, la empatía y la dignidad son la base de cada proceso terapéutico. Aquí, cada historia importa, cada avance se celebra y cada reto se enfrenta con acompañamiento profesional y humano. Nuestro propósito es brindar apoyo real, cercano y constante para que cada persona recupere su salud mental, su entorno y su propósito.',
   img: Banner2,
-  
+
 };
 
 export const MissionBannerData = {
@@ -226,13 +172,6 @@ export const FooterData = {
   logo: logo,
   addresses: ['FINCA MACADAMIA, Quimbaya, Quindío, Colombia'],
   phone: '+57 320 6367888',
-  departments: [
-    'Cardiology',
-    'Dentistry',
-    'Neurology',
-    'Orthopedics',
-    'Surgery',
-    'More',
-  ],
+
   links: links,
 };
