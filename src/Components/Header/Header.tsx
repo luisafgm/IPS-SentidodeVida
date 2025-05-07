@@ -1,7 +1,7 @@
-import Logo from '@/assets/Images/Logo.png';
-import NavBar from './NavBar';
 import { useState, useEffect } from 'react';
-import { SelectedPage } from '@/Components/Shared/Types';
+import Logo from '../../assets/Images/Logo.png'; 
+import NavBar from './NavBar';
+import { SelectedPage } from '../Shared/Types'; 
 
 const Header = () => {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(
@@ -15,8 +15,9 @@ const Header = () => {
       if (window.scrollY === 0) {
         setIsTopOfPage(true);
         setSelectedPage(SelectedPage.Home);
+      } else {
+        setIsTopOfPage(false);
       }
-      if (window.scrollY !== 0) setIsTopOfPage(false);
     };
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
